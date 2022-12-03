@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('install dependencies') {
+            steps {
+                sh 'ls'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'echo "hi" '
+            }
+        }
+    }
+}
