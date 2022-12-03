@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('install dependencies') {
             steps {
-                sh 'echo "BYE"'
+                bat 'echo "BYE"'
             }
         }
         stage('test') {
             steps {
-                sh 'echo "hi" '
+                bat 'echo "hi" '
             }
         }
     }
